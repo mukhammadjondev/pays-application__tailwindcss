@@ -22,5 +22,34 @@
 }
 
 .bg-black-gradient {
-  background: linear-gradient(to top, #fff -278%, #6d6d6d -78%, rgb(0, 4, 15) 70%);
+  background: linear-gradient(to top, #fff -278%, #6d6d6d -78%, #11101d 70%);
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(130deg, #272727 0%, #11101d 100%)
+}
+
+.text-gradient {
+  background: radial-gradient(64% 64% at 71% 35%, #def9fa 1%, #bef3f5 17%, #9dedf0 42%, #7de7eb 55%, #5ce1e6 71%, #33bbcf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(175deg, #def9fa -43%, #bef3f5 -21%, #9dedf0 12%, #7de7eb 29%, #5ce1e6 52%, #33bbcf 90%);
 }

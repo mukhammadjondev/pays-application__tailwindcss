@@ -3,3 +3,7 @@ export { default as menu } from './menu.svg';
 export { default as close } from './close.svg';
 export { default as discount } from './discount.svg';
 export { default as robot } from './home.png';
+export { default as card } from './card.png';
+export { default as google } from './google.svg';
+export { default as apple } from './apple.svg';
+export { default as bill } from './bill.png';

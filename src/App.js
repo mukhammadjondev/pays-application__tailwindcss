@@ -1,4 +1,4 @@
-import {Home, Navbar} from './components'
+import {Home, Navbar, Statistics, Contract, Billing} from './components'
 import {styles} from './util/style'
 
 const App = () => {
@@ -8,6 +8,9 @@ const App = () => {
         <div className={`${styles.container}`}>
           <Navbar />
           <Home />
+          <Statistics />
+          <Contract />
+          <Billing />
         </div>
       </div>
     </div>

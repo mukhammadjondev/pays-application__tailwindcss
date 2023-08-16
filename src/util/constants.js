@@ -1,4 +1,4 @@
-import { star, shield, send } from '../assets'
+import { star, shield, send, airbnb, binance, dropbox, coinbase, instagram, facebook, twitter, linkedin } from '../assets'
 
 export const navigationLinks = [
   {
@@ -6,12 +6,12 @@ export const navigationLinks = [
     title: 'Bosh sahifa'
   },
   {
-    id: 'features',
-    title: 'Xizmatlar'
-  },
-  {
     id: 'product',
     title: 'Mahsulot'
+  },
+  {
+    id: 'features',
+    title: 'Xizmatlar'
   },
   {
     id: 'clients',
@@ -82,103 +82,74 @@ export const feedbacks = [
   },
 ]
 
-// export const clients = [
-//   {
-//     id: 1,
-//     title: "AIRBNB",
-//     logo: (
-//       <FaAirbnb className="sm:w-[50px] w-[40px] sm:h-[50px] h-[40px] object-contain icons mr-3" />
-//     ),
-//   },
-//   {
-//     id: 2,
-//     title: "BINANCE",
-//     logo: (
-//       <TbBrandBinance className="sm:w-[50px] w-[40px] sm:h-[50px] h-[40px] object-contain icons mr-3" />
-//     ),
-//   },
-//   {
-//     id: 3,
-//     title: "COINBASE",
-//     logo: (
-//       <TbBrandCoinbase className="sm:w-[50px] w-[40px] sm:h-[50px] h-[40px] object-contain icons mr-3" />
-//     ),
-//   },
-//   {
-//     id: 4,
-//     title: "DROPBOX",
-//     logo: (
-//       <BsDropbox className="sm:w-[50px] w-[40px] sm:h-[50px] h-[40px] object-contain icons mr-3" />
-//     ),
-//   },
-// ]
+export const clients = [
+  {
+    id: 'client-1',
+    title: airbnb,
+  },
+  {
+    id: 'client-2',
+    title: binance,
+  },
+  {
+    id: 'client-3',
+    title: coinbase,
+  },
+  {
+    id: 'client-4',
+    title: dropbox,
+  },
+]
 
-// export const footerLinks = [
-//   {
-//     title: "Jamiyat",
-//     links: [
-//       { name: "Yordam markazi", link: "https://www.hoobank.com/help-center/" },
-//       { name: "Hamkorlar", link: "https://www.hoobank.com/partners/" },
-//       { name: "Takliflar", link: "https://www.hoobank.com/suggestions/" },
-//       { name: "Blog", link: "https://www.hoobank.com/blog/" },
-//       { name: "Yangiliklar", link: "https://www.hoobank.com/newsletters/" },
-//     ],
-//   },
+export const footerLinks = [
+  {
+    title: "Jamiyat",
+    links: [
+      { name: "Yordam markazi", link: "https://www.hoobank.com/help-center/" },
+      { name: "Hamkorlar", link: "https://www.hoobank.com/partners/" },
+      { name: "Takliflar", link: "https://www.hoobank.com/suggestions/" },
+      { name: "Blog", link: "https://www.hoobank.com/blog/" },
+      { name: "Yangiliklar", link: "https://www.hoobank.com/newsletters/" },
+    ],
+  },
 
-//   {
-//     title: "Foydali Havolalar",
-//     links: [
-//       { name: "Content", link: "https://www.sammi.ac/content/" },
-//       { name: "Qanday ishlaydi", link: "https://www.sammi.ac/how-it-works/" },
-//       {
-//         name: "Shartlar & xizmatlar",
-//         link: "https://www.sammi.ac/terms-and-services/",
-//       },
-//     ],
-//   },
+  {
+    title: "Foydali Havolalar",
+    links: [
+      { name: "Content", link: "https://www.sammi.ac/content/" },
+      { name: "Qanday ishlaydi", link: "https://www.sammi.ac/how-it-works/" },
+      {name: "Shartlar & xizmatlar", link: "https://www.sammi.ac/terms-and-services/",},
+    ],
+  },
 
-//   {
-//     title: "Hamkor",
-//     links: [
-//       {
-//         name: "Bizning hamkorimiz",
-//         link: "https://www.sammi.ac/our-partner/",
-//       },
-//       {
-//         name: "Hamkor bo'ling",
-//         link: "https://www.sammi.ac/become-a-partner/",
-//       },
-//     ],
-//   },
-// ]
+  {
+    title: "Hamkor",
+    links: [
+      {name: "Bizning hamkorimiz", link: "https://www.sammi.ac/our-partner/",},
+      {name: "Hamkor bo'ling", link: "https://www.sammi.ac/become-a-partner/",},
+    ],
+  },
+]
 
-// export const socialMedia = [
-//   {
-//     id: "social-media-1",
-//     icon: (
-//       <BsInstagram className="w-[21px] h-[21px] object-contain cursor-pointer icons hover:translate-y-[-3px] transition-all duration-300" />
-//     ),
-//     link: "https://www.instagram.com/",
-//   },
-//   {
-//     id: "social-media-2",
-//     icon: (
-//       <FaFacebookF className="w-[21px] h-[21px] object-contain cursor-pointer icons hover:translate-y-[-3px] transition-all duration-300" />
-//     ),
-//     link: "https://www.facebook.com/",
-//   },
-//   {
-//     id: "social-media-3",
-//     icon: (
-//       <FiTwitter className="w-[21px] h-[21px] object-contain cursor-pointer icons hover:translate-y-[-3px] transition-all duration-300" />
-//     ),
-//     link: "https://www.twitter.com/",
-//   },
-//   {
-//     id: "social-media-4",
-//     icon: (
-//       <FiLinkedin className="w-[21px] h-[21px] object-contain cursor-pointer icons hover:translate-y-[-3px] transition-all duration-300" />
-//     ),
-//     link: "https://www.linkedin.com/",
-//   },
-// ]
+export const socialMedia = [
+  {
+    id: "social-media-1",
+    icon: instagram,
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: "social-media-2",
+    icon: facebook,
+    link: "https://www.facebook.com/",
+  },
+  {
+    id: "social-media-3",
+    icon: linkedin,
+    link: "https://www.twitter.com/",
+  },
+  {
+    id: "social-media-4",
+    icon: twitter,
+    link: "https://www.linkedin.com/",
+  },
+]

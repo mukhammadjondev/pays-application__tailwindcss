@@ -11,7 +11,7 @@ const Navbar = () => {
   const activeHandler = id => setActive(id)
 
   return (
-    <div className={`w-full py-6 ${styles.flexBetween} navbar`}>
+    <div className={`w-full py-6 ${styles.flexBetween} navbar relative bg-transparent z-[100]`}>
       <img src={logo} alt="logo" className="w-[130px] h-[35px] cursor-pointer" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">

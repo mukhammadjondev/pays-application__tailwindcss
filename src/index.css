@@ -7,10 +7,28 @@
 :root {
   --black-gradient: linear-gradient(135deg, #ffffff -300%, #6d6d6d 0%, #11101d 104%);
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  --text-gradient: radial-gradient(64% 64% at 71% 35%, #def9fa 1%, #bef3f5 17%, #9dedf0 42%, #7de7eb 55%, #5ce1e6 71%, #33bbcf 100%);
 }
 
 * {
   scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #C0D7F3;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--black-gradient);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .sidebar {
@@ -35,7 +53,7 @@
 }
 
 .text-gradient {
-  background: radial-gradient(64% 64% at 71% 35%, #def9fa 1%, #bef3f5 17%, #9dedf0 42%, #7de7eb 55%, #5ce1e6 71%, #33bbcf 100%);
+  background: var(--text-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

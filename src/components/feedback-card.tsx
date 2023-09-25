@@ -1,6 +1,13 @@
+import { FC } from 'react'
 import { quotes } from '../assets'
 
-const FeedbackCard = ({content, name, title}) => {
+interface Props {
+  content: string;
+  title: string;
+  name: string;
+}
+
+const FeedbackCard: FC<Props> = ({content, name, title}) => {
   return (
     <div className='flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 cursor-pointer feedback-card'>
       <img src={quotes} alt='quotes' className='w-[42px] h-[27px] object-contain' />

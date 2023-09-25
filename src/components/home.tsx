@@ -1,6 +1,6 @@
 import { styles } from '../util/style'
 import { discount, robot } from '../assets'
-import { Button } from './'
+import { Button } from '.'
 
 const Home = () => {
   return (

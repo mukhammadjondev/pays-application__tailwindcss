@@ -1,8 +1,9 @@
 import { features } from '../util/constants'
 import { layout, styles } from '../util/style'
-import { Button, FeatureCard} from './'
+import { Button, FeatureCard} from '.'
+import { FC } from 'react'
 
-const Business = () => {
+const Business: FC = (): JSX.Element => {
   return (
     <section id='features' className={layout.section}>
       <div className={layout.sectionInfo}>

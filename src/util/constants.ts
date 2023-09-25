@@ -1,4 +1,4 @@
-import { star, shield, send, airbnb, binance, dropbox, coinbase, instagram, facebook, twitter, linkedin } from '../assets'
+import { star, shield, send, airbnb, binance, dropbox, coinbase, instagram, facebook, twitter, linkedin } from '../assets/'
 
 export const navigationLinks = [
   {

@@ -1,7 +1,8 @@
+import { FC } from 'react'
 import { google, apple, bill } from '../assets'
 import { layout, styles } from '../util/style'
 
-const Billing = () => {
+const Billing: FC = (): JSX.Element => {
   return (
     <section id='features' className={layout.sectionReverse}>
       <div className={layout.sectionImageReverse}>

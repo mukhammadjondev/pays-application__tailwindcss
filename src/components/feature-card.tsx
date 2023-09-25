@@ -1,7 +1,15 @@
+import { FC } from 'react';
 import { features } from '../util/constants'
 import { styles } from '../util/style'
 
-const FeatureCard = ({icon, title, content, idx}) => {
+interface Props {
+  icon: string;
+  title: string;
+  content: string;
+  idx: number;
+}
+
+const FeatureCard: FC<Props> = ({icon, title, content, idx}): JSX.Element => {
   return (
     <div className={`flex flex-row p-6 rounded-[20px] cursor-pointer feature-card ${idx !== features.length - 1 ? 'mb-6' : 'mb-0'} transition-all duration-500`}>
       <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-lightBlue`}>

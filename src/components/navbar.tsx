@@ -4,11 +4,11 @@ import { logo, menu, close } from '../assets'
 import { useState } from "react"
 
 const Navbar = () => {
-  const [toggleNav, setToggleNav] = useState(false)
-  const [active, setActive] = useState('home')
+  const [toggleNav, setToggleNav] = useState<boolean>(false)
+  const [active, setActive] = useState<string>('home')
 
   const toggleHandler = () => setToggleNav(prev => !prev)
-  const activeHandler = id => setActive(id)
+  const activeHandler = (id: string) => setActive(id)
 
   return (
     <div className={`w-full py-6 ${styles.flexBetween} navbar relative bg-transparent z-[100]`}>
